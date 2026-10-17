@@ -54,3 +54,13 @@ st.download_button("Download filtered receipts", json.dumps(filtered, indent=2),
 with st.expander("How this project works"):
     st.markdown("POS simulator → SQS → Lambda validation → partitioned S3 objects → local export → DuckDB → dashboard. Failed records are retried individually; the queue redrives repeatedly failing messages to a DLQ.")
 st.caption("Portfolio prototype · Synthetic data · Not a production deployment")
+st.divider()
+st.markdown(
+    "**Authors:** "
+    "[Kedharnath Thanikonda](https://github.com/KEDHAR2004) · "
+    "[Harshitha Reddy](https://github.com/yharshithareddy)"
+)
+st.markdown(
+    "[View project source on GitHub]"
+    "(https://github.com/KEDHAR2004/supermarket-sales-analytics)"
+)
