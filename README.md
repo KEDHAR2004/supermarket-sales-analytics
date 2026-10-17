@@ -62,9 +62,6 @@ Push these source files to a GitHub repository, then configure a compatible Stre
 
 Implemented and tested collaboratively using AI-assisted development.
 
-## Acknowledgements
-
-Thanks to [@yharshithareddy](https://github.com/yharshithareddy) for their support with this project.
 
 ## Reference documentation
 
