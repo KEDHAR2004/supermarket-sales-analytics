@@ -61,6 +61,10 @@ Push these source files to a GitHub repository, then configure a compatible Stre
 **Kedharnath Thanikonda**  
 GitHub: [@KEDHAR2004](https://github.com/KEDHAR2004)
 
+## Acknowledgements
+
+Thanks to [@yharshithareddy](https://github.com/yharshithareddy) for their support with this project.
+
 ## Reference documentation
 
 - https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-errorhandling.html
