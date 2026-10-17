@@ -57,7 +57,10 @@ Push these source files to a GitHub repository, then configure a compatible Stre
 
 ## Credits and license
 
-The supplied outline names Kedhar and an unnamed collaborator. Confirm author names, contribution descriptions and license choice before publishing. No copyright assignment, contributor attribution, or license grant is asserted by this generated scaffold. Add a LICENSE only after the contributors agree on the terms; repository ownership alone does not establish ownership of other contributors' work.
+## Author
+
+**Kedharnath Thanikonda**  
+GitHub: [@KEDHAR2004](https://github.com/KEDHAR2004)
 
 ## Reference documentation
 
