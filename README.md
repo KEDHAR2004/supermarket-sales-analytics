@@ -55,7 +55,6 @@ No real AWS resources are provisioned by these scripts; local clients require a 
 
 Push these source files to a GitHub repository, then configure a compatible Streamlit hosting service with `app.py` as its entry point and this requirements file. The hosted dashboard runs in synthetic demo mode. Hosting, account setup and publication are not performed by this package. Do not upload credentials or commit `.env` files.
 
-## Credits and license
 
 ## Author
 
