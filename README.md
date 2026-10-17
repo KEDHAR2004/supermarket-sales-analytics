@@ -1,4 +1,9 @@
 # Retail Lens — Supermarket Sales Analytics
+## Live Demo
+
+[Open Retail Lens Dashboard](https://supermarket-sales-analytics-mtggcb7dwbhyrsgvsehpew.streamlit.app/)
+
+Explore the dashboard using synthetic supermarket sales data.
 
 A runnable portfolio prototype: deterministic POS receipts, decimal validation, an optional LocalStack SQS → Lambda → S3 pipeline, and a Streamlit/DuckDB analytics dashboard.
 
