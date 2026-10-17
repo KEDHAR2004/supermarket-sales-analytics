@@ -55,11 +55,12 @@ No real AWS resources are provisioned by these scripts; local clients require a 
 
 Push these source files to a GitHub repository, then configure a compatible Streamlit hosting service with `app.py` as its entry point and this requirements file. The hosted dashboard runs in synthetic demo mode. Hosting, account setup and publication are not performed by this package. Do not upload credentials or commit `.env` files.
 
+## Authors
 
-## Author
+- **Kedharnath Thanikonda** — [@KEDHAR2004](https://github.com/KEDHAR2004)
+- **Harshitha Reddy** — [@yharshithareddy](https://github.com/yharshithareddy)
 
-**Kedharnath Thanikonda**  
-GitHub: [@KEDHAR2004](https://github.com/KEDHAR2004)
+Implemented and tested collaboratively using AI-assisted development.
 
 ## Acknowledgements
 
