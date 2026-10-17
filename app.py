@@ -7,7 +7,11 @@ from analytics import tables
 st.set_page_config(page_title="Retail Lens | Sales Analytics", page_icon="🛒", layout="wide")
 st.title("Retail Lens")
 st.caption("SUPERMARKET SALES ANALYTICS · Python / DuckDB / SQS / Lambda / S3")
-mode = st.sidebar.radio("Data source", ["Synthetic demo", "Processed lake export"])
+lake_file = Path(__file__).parent / "data/lake.json"
+sources = ["Synthetic demo"]
+if lake_file.exists():
+    sources.append("Processed lake export")
+mode = st.sidebar.radio("Data source", sources)
 if mode == "Synthetic demo":
     rows = generate()
     st.info("Demo: 500 synthetic receipts. These have not passed through SQS or Lambda.")
