@@ -45,11 +45,11 @@ The Lambda returns only failed SQS message IDs. Provisioning explicitly enables 
 ## Verify
 
 ```bash
-python -m unittest discover -s tests -v
+python -m unittest test_receipts -v
 python -c "from receipts import generate; from analytics import tables; print(tables(generate())['summary'])"
 ```
 
-GitHub Actions runs unit tests and a DuckDB smoke check. No real AWS resources are provisioned by these scripts; local clients require a loopback emulator endpoint and use dummy credentials.
+No real AWS resources are provisioned by these scripts; local clients require a loopback emulator endpoint and use dummy credentials.
 
 ## Publish a portfolio demo
 
